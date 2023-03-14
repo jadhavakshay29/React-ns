@@ -5,9 +5,11 @@ import Header from "./Components/Header/Header";
 // import List from './Components/List/List';
 // import ToDoList from './Components/ToDoList/ToDoList';
 import styled from 'styled-components';
-import Event from './Components/Events/Event';
-import Register from './Components/Register/Register';
-import UpdatingState from './Components/UpdatingState/UpdatingState';
+// import Event from './Components/Events/Event';
+// import Register from './Components/Register/Register';
+// import UpdatingState from './Components/UpdatingState/UpdatingState';
+// import Binding from './Components/Binding/Binding';
+import DashBoard from './Components/ChildParentCompCommunication/DashBoard/DashBoard';
    
   //now using styled we can use Heading in place of h1 as a component
 const Heading = styled.h1`
@@ -42,8 +44,10 @@ function App() {
         hardware:"mouse",
         type:"click",
         }}/> */}
-        <Register/>
+        {/* <Register/>
         <UpdatingState/>
+        <Binding/> */}
+        <DashBoard/>
       {/* <Event />  */}
       {/* <ToDoList/> */}
       {/* <List /> */}
