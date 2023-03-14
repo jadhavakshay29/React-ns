@@ -10,7 +10,7 @@ const PriceCalculator = (props)=>{
             discount = price / 10;
           }else if(price>1000 && price<=5000){
             discount = (price * 12)/100;
-          }else{
+          }else{ 
             discount = (price * 15)/100;
           }
           return discount.toFixed();
