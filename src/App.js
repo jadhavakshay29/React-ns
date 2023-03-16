@@ -10,7 +10,8 @@ import styled from 'styled-components';
 // import UpdatingState from './Components/UpdatingState/UpdatingState';
 // import Binding from './Components/Binding/Binding';
 import DashBoard from './Components/ChildParentCompCommunication/DashBoard/DashBoard';
-import ControlledUncontrolledComp from './Components/ControlledUncontrolledComp/ControlledUncontrolledComp';
+// import ControlledUncontrolledComp from './Components/ControlledUncontrolledComp/ControlledUncontrolledComp';
+import FormValidation from './Components/FormValidation/FormValidation';
    
   //now using styled we can use Heading in place of h1 as a component
 const Heading = styled.h1`
@@ -49,7 +50,8 @@ function App() {
         <UpdatingState/>
         <Binding/> */}
         <DashBoard/>
-        <ControlledUncontrolledComp/>
+        {/* <ControlledUncontrolledComp/> */}
+        <FormValidation/>
       {/* <Event />  */}
       {/* <ToDoList/> */}
       {/* <List /> */}
